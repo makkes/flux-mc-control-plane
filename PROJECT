@@ -1,0 +1,16 @@
+domain: fluxmc.makk.es
+layout:
+- go.kubebuilder.io/v3
+projectName: fluxmc
+repo: github.com/makkes/fluxmc
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: fluxmc.makk.es
+  group: core
+  kind: Application
+  path: github.com/makkes/fluxmc/api/v1alpha1
+  version: v1alpha1
+version: "3"

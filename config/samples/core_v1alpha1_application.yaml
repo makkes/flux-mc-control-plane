@@ -1,0 +1,8 @@
+apiVersion: core.fluxmc.makk.es/v1alpha1
+kind: Application
+metadata:
+  name: application-sample
+spec:
+  repo:
+    namespace: default
+    name: wurst
