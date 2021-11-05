@@ -4,3 +4,4 @@ resources:
 - ns.yaml
 - rolebinding.yaml
 - sa.yaml
+- sync.yaml
