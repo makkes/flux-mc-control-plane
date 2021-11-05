@@ -7,3 +7,4 @@ resources:
 - infra.yaml
 - ingress-nginx.yaml
 - metallb.yaml
+- flux-mc.yaml
