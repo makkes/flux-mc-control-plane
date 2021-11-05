@@ -8,5 +8,5 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/makkes/flux-mc
+  url: https://github.com/makkes/flux-mc-control-plane
 
