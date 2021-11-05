@@ -9,7 +9,7 @@ spec:
   path: ./infra/cert-manager/ca
   prune: true
   dependsOn:
-    name: cert-manager
+    - name: cert-manager
   sourceRef:
     kind: GitRepository
     name: flux-mc
