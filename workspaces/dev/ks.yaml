@@ -10,5 +10,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: workspace
+    name: control-plane
 
