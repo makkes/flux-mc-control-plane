@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./infra/tenants/dev-01
+  path: ./tenants/dev-01
   prune: true
   sourceRef:
     kind: GitRepository
