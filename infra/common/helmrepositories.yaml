@@ -2,6 +2,15 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
+  name: gatekeeper
+  namespace: flux-system
+spec:
+  interval: 10m0s
+  url: https://open-policy-agent.github.io/gatekeeper/charts
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
   name: ingress-nginx
   namespace: flux-system
 spec:
