@@ -18,6 +18,7 @@ metadata:
 spec:
   interval: 1m0s
   prune: true
+  serviceAccountName: dev-02
   sourceRef:
     kind: GitRepository
     name: tenant
