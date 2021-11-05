@@ -2,7 +2,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: dev-01
+  name: tenant-dev-01
   namespace: flux-system
 spec:
   interval: 1m0s
