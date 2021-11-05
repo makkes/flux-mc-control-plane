@@ -6,8 +6,10 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./infra/cert-manager/deploy
+  path: ./infra/cert-manager/ca
   prune: true
+  dependsOn:
+    name: cert-manager
   sourceRef:
     kind: GitRepository
     name: flux-mc
