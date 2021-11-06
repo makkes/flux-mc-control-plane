@@ -10,4 +10,4 @@ A cluster is managed by creating one workspace Kustomization on it. A workspace 
 
 ### Tenant
 
-The second layer of grouping is by tenants. Each cluster may host multiple tenants. Each tenant can only be part of one cluster.
+The second layer of grouping is by tenants. Each cluster may host multiple tenants. Each tenant can only be part of one workspace.
