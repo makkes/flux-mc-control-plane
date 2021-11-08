@@ -1,14 +1,14 @@
----
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: tenant-dev-02
+  name: cluster-dev-dev
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./tenants/dev-02
   prune: true
+  path: ./clusters/dev-dev/remote
+  kubeConfig:
+    secretRef: cluster-dev-dev
   sourceRef:
     kind: GitRepository
     name: control-plane
-
