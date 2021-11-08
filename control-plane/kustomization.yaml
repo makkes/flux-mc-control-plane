@@ -8,3 +8,4 @@ resources:
 - metallb.yaml
 - gitrepo.yaml
 - ks.yaml
+- ../clusters
