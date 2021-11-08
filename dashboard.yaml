@@ -12,7 +12,7 @@ spec:
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: kubernetes-dashboard
+  name: kubernetes-dashboard-forbidden-target-namespace
   namespace: workspace-dev
 spec:
   chart:
@@ -31,5 +31,28 @@ spec:
   upgrade:
     remediation:
       retries: 30
-  releaseName: kubernetes-dashboard
+  releaseName: kubernetes-dashboard-forbidden-target-namespace
   targetNamespace: default
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: kubernetes-dashboard-no-serviceaccount
+  namespace: workspace-dev
+spec:
+  chart:
+    spec:
+      chart: kubernetes-dashboard
+      sourceRef:
+        kind: HelmRepository
+        name: kubernetes-github-io-dashboard
+        namespace: workspace-dev
+      version: "5.0.2"
+  interval: 15s
+  install:
+    remediation:
+      retries: 30
+  upgrade:
+    remediation:
+      retries: 30
+  releaseName: kubernetes-dashboard-no-serviceaccount
