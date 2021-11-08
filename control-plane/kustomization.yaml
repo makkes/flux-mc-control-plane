@@ -4,7 +4,7 @@ resources:
 - common
 - cert-manager/cert-manager.yaml
 - cert-manager/ca.yaml
-- infra.yaml
 - ingress-nginx.yaml
 - metallb.yaml
-- flux-mc.yaml
+- gitrepo.yaml
+- ks.yaml

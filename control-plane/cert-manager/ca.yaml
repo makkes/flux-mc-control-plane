@@ -12,5 +12,5 @@ spec:
     - name: cert-manager
   sourceRef:
     kind: GitRepository
-    name: flux-mc
+    name: control-plane
 
