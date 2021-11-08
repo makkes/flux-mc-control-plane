@@ -24,6 +24,7 @@ spec:
         namespace: default
       version: "5.0.2"
   interval: 15s
+  serviceAccountName: dev
   install:
     remediation:
       retries: 30
