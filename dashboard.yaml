@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
   name: kubernetes-github-io-dashboard
-  namespace: default
+  namespace: workspace-dev
 spec:
   interval: 10m
   timeout: 1m
@@ -13,7 +13,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: kubernetes-dashboard
-  namespace: default
+  namespace: workspace-dev
 spec:
   chart:
     spec:
@@ -31,3 +31,4 @@ spec:
     remediation:
       retries: 30
   releaseName: kubernetes-dashboard
+  targetNamespace: default
