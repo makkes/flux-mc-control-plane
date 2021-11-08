@@ -8,7 +8,8 @@ spec:
   prune: true
   path: ./clusters/dev-dev/remote
   kubeConfig:
-    secretRef: cluster-dev-dev
+    secretRef:
+      name: cluster-dev-dev
   sourceRef:
     kind: GitRepository
     name: control-plane
