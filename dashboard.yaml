@@ -21,7 +21,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: kubernetes-github-io-dashboard
-        namespace: default
+        namespace: workspace-dev
       version: "5.0.2"
   interval: 15s
   serviceAccountName: dev
