@@ -2,14 +2,14 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: gatekeeper-constraints
+  name: gatekeeper-constraint-templates
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./control-plane/common/gatekeeper/constraints
+  path: ./control-plane/common/gatekeeper/templates
   prune: true
   dependsOn:
-    - name: gatekeeper-constraint-templates
+    - name: gatekeeper
   sourceRef:
     kind: GitRepository
     name: control-plane

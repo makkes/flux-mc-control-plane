@@ -3,4 +3,5 @@ kind: Kustomization
 resources:
 - gatekeeper/deploy.yaml
 - gatekeeper/constraints.yaml
+- gatekeeper/templates.yaml
 - helmrepositories.yaml
