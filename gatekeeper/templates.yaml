@@ -6,11 +6,11 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./control-plane/common/gatekeeper/templates
+  path: ./gatekeeper/templates
   prune: true
   dependsOn:
     - name: gatekeeper
   sourceRef:
     kind: GitRepository
-    name: control-plane
+    name: common
 

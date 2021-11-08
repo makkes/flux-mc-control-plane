@@ -6,8 +6,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./control-plane/common/gatekeeper/deploy
+  path: ./gatekeeper/deploy
   prune: true
   sourceRef:
     kind: GitRepository
-    name: control-plane
+    name: common

@@ -6,11 +6,11 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m0s
-  path: ./control-plane/common/gatekeeper/constraints
+  path: ./gatekeeper/constraints
   prune: true
   dependsOn:
     - name: gatekeeper-constraint-templates
   sourceRef:
     kind: GitRepository
-    name: control-plane
+    name: common
 
