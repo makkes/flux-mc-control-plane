@@ -11,4 +11,13 @@ spec:
   sourceRef:
     kind: GitRepository
     name: control-plane
-
+  healthChecks:
+    - kind: Deployment
+      namespace: cert-manager
+      name: cert-manager
+    - kind: Deployment
+      namespace: cert-manager
+      name: cert-manager-cainjector
+    - kind: Deployment
+      namespace: cert-manager
+      name: cert-manager-webhook
