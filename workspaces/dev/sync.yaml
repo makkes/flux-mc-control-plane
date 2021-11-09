@@ -22,3 +22,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: workspace
+  dependsOn:
+    - namespace: flux-system
+      name: gatekeeper-constraints
