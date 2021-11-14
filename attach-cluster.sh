@@ -13,6 +13,11 @@ function usage() {
     echo "Usage: $(basename "$0") -n NAME -k KUBECONFIG -w WORKSPACE [-h HOST_KUBECONFIG]"
 }
 
+function cleanup() {
+    dir=$1
+    rm -rf "$dir"
+}
+
 while getopts "${ARGS}" opts; do
     case "${opts}" in
         n)
@@ -59,8 +64,10 @@ fi
 flux install --kubeconfig "${HOST_KUBECONFIG:-${KUBECONFIG}}"
 
 CLONEDIR=$(mktemp -d)
+trap 'cleanup $CLONEDIR' EXIT
 CLUSTERDIR="$CLONEDIR/clusters/$NAME"
 git clone git@github.com:makkes/flux-mc-control-plane.git "$CLONEDIR"
+
 cd "$CLONEDIR"
 if [ -a "$CLUSTERDIR" ] ; then
     echo "Error: cluster dir already exists in repository"
