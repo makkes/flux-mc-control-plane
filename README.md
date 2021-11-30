@@ -32,3 +32,7 @@ Then, create a managed cluster:
 ```
 
 Now you have two clusters running, a management cluster and an attached cluster. Both are synchronized using this Git repository.
+
+## Architecture
+
+![architecture diagram](architecture.png)
