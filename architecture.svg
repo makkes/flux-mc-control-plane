@@ -210,9 +210,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.2765076"
-     inkscape:cx="939.49624"
-     inkscape:cy="1831.8403"
+     inkscape:zoom="1.1060304"
+     inkscape:cx="1699.9211"
+     inkscape:cy="786.73882"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1020,11 +1020,12 @@
        inkscape:connection-start="#g4412"
        inkscape:connection-end="#g4427" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1318)"
-       d="m -49.766284,110.38396 0,-118.1462498"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1318)"
+       d="m -49.766283,110.38396 0,-39.498164"
        id="path1022"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
+       inkscape:connection-end="#rect990-8-1-8-4-2"
        inkscape:connection-start="#g4427" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1322)"
@@ -1148,12 +1149,12 @@
          y="-325.26901"
          style="stroke-width:0.26458332">workspace Git repository</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2161)"
-       d="M -49.766284,-7.7622898 V -189.80484"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2161)"
+       d="M -43.688723,-80.191536 V -189.92445"
        id="path2151"
        inkscape:connector-type="orthogonal"
        inkscape:connector-curvature="0"
-       inkscape:connection-end="#rect1494-3-2" />
+       inkscape:connection-start="#rect990-8-1-8-4-2" />
     <g
        id="g1153">
       <rect
