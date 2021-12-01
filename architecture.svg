@@ -210,9 +210,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5641632"
-     inkscape:cx="1836.2988"
-     inkscape:cy="595.43369"
+     inkscape:zoom="0.7820816"
+     inkscape:cx="1911.7306"
+     inkscape:cy="1203.9887"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -981,12 +981,13 @@
            id="tspan1625" /></text>
     </g>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1326)"
-       d="m 145.27139,-99.497716 0,80.169068"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1326)"
+       d="m 145.27139,-76.809864 0,57.481216"
        id="path1012"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:connection-end="#g4367" />
+       inkscape:connection-end="#g4367"
+       inkscape:connection-start="#rect990" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
        d="m 145.27139,19.363319 0,57.481192"
@@ -1233,28 +1234,7 @@
            height="76.851418"
            x="2532.4802"
            y="1134.2219" /></flowRegion><flowPara
-         id="flowPara1031"></flowPara></flowRoot>    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="41.301613"
-       y="-51.653446"
-       id="text1035"><tspan
-         sodipodi:role="line"
-         id="tspan1033"
-         x="41.301613"
-         y="-51.653446"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Here, 2 workload clusters are</tspan><tspan
-         sodipodi:role="line"
-         x="41.301613"
-         y="-46.299767"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-         id="tspan1037">attached to the management</tspan><tspan
-         sodipodi:role="line"
-         x="41.301613"
-         y="-40.946091"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-         id="tspan1039">cluster, named &quot;dev&quot; and &quot;prod&quot;.</tspan></text>
-    <text
+         id="flowPara1031" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="38.309795"
@@ -1265,63 +1245,244 @@
          y="47.310158"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
          id="tspan1075" /></text>
-    <flowRoot
+    <g
+       id="g1208"
+       transform="translate(-4.0236494,6.4278246)">
+      <text
+         id="text1035"
+         y="-51.653446"
+         x="41.301613"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="-51.653446"
+           x="41.301613"
+           id="tspan1033"
+           sodipodi:role="line">Here, 2 workload clusters are</tspan><tspan
+           id="tspan1037"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="-46.299767"
+           x="41.301613"
+           sodipodi:role="line">attached to the management</tspan><tspan
+           id="tspan1039"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="-40.946091"
+           x="41.301613"
+           sodipodi:role="line">cluster, named &quot;dev&quot; and &quot;prod&quot;.</tspan></text>
+      <g
+         transform="translate(0,2.3675857)"
+         id="g1152">
+        <circle
+           style="fill:#d4e4ff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96388263"
+           id="path1060"
+           cx="76.352699"
+           cy="-66.184166"
+           r="6.3009596" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="73.815559"
+           y="-63.355228"
+           id="text1058"><tspan
+             sodipodi:role="line"
+             id="tspan1056"
+             x="73.815559"
+             y="-63.355228"
+             style="font-size:7.76111126px;stroke-width:0.26458332">1</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1198"
+       transform="translate(-3.2011079,9.1342774)">
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-614.92381,-329.5885)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1079"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1081"><rect
+             y="1389.2412"
+             x="2475.4451"
+             height="71.60379"
+             width="277.46466"
+             id="rect1083" /></flowRegion><flowPara
+           id="flowPara1085">Each cluster directory hosts a set of resources created on the</flowPara><flowPara
+           id="flowPara1087">management cluster.</flowPara></flowRoot>      <g
+         transform="translate(0,1.1659963)"
+         id="g1157">
+        <circle
+           style="fill:#d4e4ff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96388263"
+           id="path1060-7"
+           cx="75.530159"
+           cy="28.398201"
+           r="6.3009601" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="73.165443"
+           y="31.278301"
+           id="text1058-7"><tspan
+             sodipodi:role="line"
+             id="tspan1056-1"
+             x="73.165443"
+             y="31.278301"
+             style="font-size:7.76111126px;stroke-width:0.26458332">2</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1187"
+       transform="translate(-6.7399221,8.4576639)">
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-617.46111,-329.25019)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1089"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1091"><rect
+             y="1742.7849"
+             x="2497.8213"
+             height="106.12704"
+             width="280.66125"
+             id="rect1093" /></flowRegion><flowPara
+           id="flowPara1095">The &quot;sync.yaml&quot; manifest points Flux to the directory hosting the resources to be applied remotely, i.e. on the workload cluster.</flowPara></flowRoot>      <g
+         transform="translate(0,0.53034073)"
+         id="g1162">
+        <circle
+           style="fill:#d4e4ff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96388263"
+           id="path1060-7-1"
+           cx="79.068977"
+           cy="122.91374"
+           r="6.3009605" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="76.615204"
+           y="125.79385"
+           id="text1058-7-5"><tspan
+             sodipodi:role="line"
+             id="tspan1056-1-9"
+             x="76.615204"
+             y="125.79385"
+             style="font-size:7.76111126px;stroke-width:0.26458332">3</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1238">
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-635.2222,-334.83225)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1101"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1103"><rect
+             y="2130.2124"
+             x="1739.5883"
+             height="97.176483"
+             width="241.66277"
+             id="rect1105" /></flowRegion><flowPara
+           id="flowPara1107">This cluster is in the &quot;dev&quot; workspace so consumes the workspace's associated directory.</flowPara></flowRoot>      <g
+         transform="translate(0,0.46301336)"
+         id="g1167">
+        <circle
+           style="fill:#d4e4ff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96388263"
+           id="path1060-7-1-7"
+           cx="-145.02939"
+           cy="219.90593"
+           r="6.3009605" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="-147.46989"
+           y="222.78606"
+           id="text1058-7-5-7"><tspan
+             sodipodi:role="line"
+             id="tspan1056-1-9-6"
+             x="-147.46989"
+             y="222.78606"
+             style="font-size:7.76111126px;stroke-width:0.26458332">4</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1256"
+       transform="translate(-59.880265,-98.108902)">
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-627.77946,-293.01828)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1111"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1113"><rect
+             y="1591.9055"
+             x="1716.5728"
+             height="152.15808"
+             width="236.54819"
+             id="rect1115" /></flowRegion><flowPara
+           id="flowPara1117">Each workspace points to a set of &quot;common&quot; resources used to deploy Gatekeeper and other foundational components on workload clusters, e.g. to enforce ServiceAccount usage.</flowPara></flowRoot>      <g
+         transform="translate(0,-2.6458334)"
+         id="g1172">
+        <circle
+           style="fill:#d4e4ff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96388263"
+           id="path1060-7-1-73"
+           cx="-144.40277"
+           cy="122.40179"
+           r="6.3009605" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="-146.83191"
+           y="125.28194"
+           id="text1058-7-5-6"><tspan
+             sodipodi:role="line"
+             id="tspan1056-1-9-5"
+             x="-146.83191"
+             y="125.28194"
+             style="font-size:7.76111126px;stroke-width:0.26458332">5</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g1218"
+       transform="translate(2.0298393,-42.28832)">
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-646.49208,-436.66624)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1111-3"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1113-8"><rect
+             y="1591.9055"
+             x="1716.5728"
+             height="152.15808"
+             width="236.54819"
+             id="rect1115-5" /></flowRegion><flowPara
+           id="flowPara1117-6">The &quot;sync&quot; manifests point Flux to the workspace-specific Git repository that can be accessed by users on the workload cluster to deploy workloads.</flowPara></flowRoot>      <g
+         transform="translate(0,0.29024606)"
+         id="g1177">
+        <circle
+           style="fill:#d4e4ff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96388263"
+           id="path1060-7-1-6"
+           cx="-161.77904"
+           cy="-24.182257"
+           r="6.3009605" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="-164.27449"
+           y="-21.30213"
+           id="text1058-7-5-3"><tspan
+             sodipodi:role="line"
+             id="tspan1056-1-9-9"
+             x="-164.27449"
+             y="-21.30213"
+             style="font-size:7.76111126px;stroke-width:0.26458332">6</tspan></text>
+      </g>
+    </g>
+    <text
        xml:space="preserve"
-       id="flowRoot1079"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-614.92381,-329.5885)"><flowRegion
-         id="flowRegion1081"><rect
-           id="rect1083"
-           width="277.46466"
-           height="71.60379"
-           x="2475.4451"
-           y="1389.2412" /></flowRegion><flowPara
-         id="flowPara1085">Each cluster directory hosts a set of resources created on the</flowPara><flowPara
-         id="flowPara1087">management cluster.</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot1089"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-617.46111,-329.25019)"><flowRegion
-         id="flowRegion1091"><rect
-           id="rect1093"
-           width="280.66125"
-           height="106.12704"
-           x="2497.8213"
-           y="1742.7849" /></flowRegion><flowPara
-         id="flowPara1095">The &quot;sync.yaml&quot; manifest points Flux to the directory hosting the resources to be applied remotely, i.e. on the workload cluster.</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot1101"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-635.2222,-334.83225)"><flowRegion
-         id="flowRegion1103"><rect
-           id="rect1105"
-           width="241.66277"
-           height="97.176483"
-           x="1739.5883"
-           y="2130.2124" /></flowRegion><flowPara
-         id="flowPara1107">This cluster is in the &quot;dev&quot; workspace so consumes the workspace's associated directory.</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot1111"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-627.77946,-282.73304)"><flowRegion
-         id="flowRegion1113"><rect
-           id="rect1115"
-           width="236.54819"
-           height="152.15808"
-           x="1716.5728"
-           y="1591.9055" /></flowRegion><flowPara
-         id="flowPara1117">Each workspace points to a set of &quot;common&quot; resources used to deploy Gatekeeper and other foundational components on workload clusters, e.g. to enforce ServiceAccount usage.</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot1111-3"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,-646.49208,-436.66624)"><flowRegion
-         id="flowRegion1113-8"><rect
-           id="rect1115-5"
-           width="236.54819"
-           height="152.15808"
-           x="1716.5728"
-           y="1591.9055" /></flowRegion><flowPara
-         id="flowPara1117-6">The &quot;sync&quot; manifests point Flux to the workspace-specific Git repository that can be accessed by users on the workload cluster to deploy workloads.</flowPara></flowRoot>  </g>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-167.93626"
+       y="-24.182262"
+       id="text1147"><tspan
+         sodipodi:role="line"
+         id="tspan1145"
+         x="-167.93626"
+         y="-20.436754"
+         style="stroke-width:0.26458332"></tspan></text>
+  </g>
   <style
      id="style966">.st0{fill:#fff}.st1{fill:#bababa}</style>
 </svg>
