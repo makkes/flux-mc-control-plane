@@ -4,3 +4,5 @@ metadata:
   creationTimestamp: null
   name: test
   namespace: workspace-dev
+data:
+  a: b
