@@ -3,7 +3,7 @@ kind: RoleBinding
 metadata:
   creationTimestamp: null
   name: dev-admin
-  namespace: flux-system
+  namespace: workspace-dev
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -11,4 +11,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: dev
-  namespace: flux-system
+  namespace: workspace-dev
