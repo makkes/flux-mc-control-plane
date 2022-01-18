@@ -2,4 +2,4 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: dev
-  namespace: workspace-dev
+  namespace: flux-system
