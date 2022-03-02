@@ -97,8 +97,33 @@ cd "$CLUSTERDIR"
 kustomize create --autodetect
 
 mkdir remote
+cat <<EOF > "$CLUSTERDIR"/remote/sync.yaml
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: cluster
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  ref:
+    branch: cluster/$NAME
+  url: https://github.com/makkes/flux-mc-control-plane
+---
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: cluster
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: cluster
+EOF
 cd remote
-kustomize create --resources ../../../workspaces/"$WORKSPACE"
+kustomize create --resources ../../../workspaces/"$WORKSPACE",sync.yaml
 
 cd ../..
 kustomize edit add resource "$NAME"
