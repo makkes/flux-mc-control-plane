@@ -4,3 +4,5 @@ metadata:
   creationTimestamp: null
   name: my-cluster-cm
   namespace: default
+data:
+  a: b
