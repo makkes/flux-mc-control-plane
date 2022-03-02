@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="844.04065mm"
-   height="611.31995mm"
-   viewBox="0 0 844.04065 611.31995"
+   width="849.72742mm"
+   height="709.09052mm"
+   viewBox="0 0 849.72742 709.09052"
    version="1.1"
    id="svg8"
    sodipodi:docname="architecture.svg"
@@ -22,13 +22,59 @@
   <defs
      id="defs2">
     <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path8777"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker8655"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8653"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker8549"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8547"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
        inkscape:isstock="true"
        style="overflow:visible"
        id="marker2161"
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow1Lend">
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
       <path
          transform="matrix(-0.8,0,0,-0.8,-10,0)"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
@@ -73,7 +119,8 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow1Lend">
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
       <path
          transform="matrix(-0.8,0,0,-0.8,-10,0)"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
@@ -202,6 +249,21 @@
          id="path1954"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1322-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1320-3"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -211,15 +273,15 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7820816"
-     inkscape:cx="1911.7306"
-     inkscape:cy="1203.9887"
+     inkscape:cx="1267.5433"
+     inkscape:cy="497.22272"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g9188"
      showgrid="false"
      inkscape:window-width="3840"
-     inkscape:window-height="2075"
-     inkscape:window-x="0"
-     inkscape:window-y="46"
+     inkscape:window-height="2073"
+     inkscape:window-x="3840"
+     inkscape:window-y="48"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -234,7 +296,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -242,12 +304,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(617.1228,333.30987)">
+     transform="translate(624.50108,333.30987)">
     <rect
        style="fill:none;fill-opacity:0.06342492;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1494"
-       width="561.4566"
-       height="406.62869"
+       width="559.76508"
+       height="504.39926"
        x="-337.03873"
        y="-131.11861" />
     <text
@@ -285,7 +347,7 @@
          id="tspan819">apiVersion: kustomize.config.k8s.io/v1beta1</tspan><tspan
          sodipodi:role="line"
          x="90.53923"
-         y="-101.89651"
+         y="-101.89652"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
          id="tspan821">kind: Kustomization</tspan><tspan
          sodipodi:role="line"
@@ -539,7 +601,7 @@
     <g
        id="g4412"
        inkscape:connector-avoid="true"
-       transform="translate(6.2759152,4.6488261)">
+       transform="translate(6.7543529,66.409173)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -551,6 +613,13 @@
            x="-116.93698"
            y="190.08571"
            style="stroke-width:0.26458332">clusters/dev/remote/kustomization.yaml</tspan></text>
+      <rect
+         y="193.99677"
+         x="-116.06749"
+         height="38.691967"
+         width="120.05058"
+         id="rect990-8-1-8"
+         style="fill:#0e0eff;fill-opacity:0.11764706;stroke:#0e0eff;stroke-width:0.93282622;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <text
          id="text817-6-1-1"
          y="202.2484"
@@ -572,23 +641,21 @@
            y="212.95575"
            x="-110.77436"
            sodipodi:role="line">resources:</tspan><tspan
-           id="tspan1527"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
            y="218.30943"
+           x="-110.77436"
+           sodipodi:role="line"
+           id="tspan1156">- sync.yaml</tspan><tspan
+           id="tspan1527"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="223.66312"
            x="-110.77436"
            sodipodi:role="line">- ../../../workspaces/dev</tspan><tspan
            id="tspan1529"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-           y="223.66312"
+           y="229.01678"
            x="-110.77436"
            sodipodi:role="line" /></text>
-      <rect
-         y="193.99677"
-         x="-116.06749"
-         height="38.691967"
-         width="120.05058"
-         id="rect990-8-1-8"
-         style="fill:#0e0eff;fill-opacity:0.11764706;stroke:#0e0eff;stroke-width:0.93282622;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="g4427"
@@ -703,82 +770,82 @@
          id="tspan8355"
          sodipodi:role="line"
          x="-118.62296"
-         y="-60.767666"
+         y="-60.767658"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">metadata:</tspan><tspan
          id="tspan8357"
          sodipodi:role="line"
          x="-118.62296"
-         y="-55.413982"
+         y="-55.413979"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  name: workspace</tspan><tspan
          id="tspan8359"
          sodipodi:role="line"
          x="-118.62296"
-         y="-50.060299"
+         y="-50.060303"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  namespace: workspace-dev</tspan><tspan
          id="tspan8361"
          sodipodi:role="line"
          x="-118.62296"
-         y="-44.706631"
+         y="-44.706623"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">spec:</tspan><tspan
          id="tspan8363"
          sodipodi:role="line"
          x="-118.62296"
-         y="-39.352947"
+         y="-39.352943"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  interval: 1m0s</tspan><tspan
          id="tspan8365"
          sodipodi:role="line"
          x="-118.62296"
-         y="-33.999264"
+         y="-33.999268"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  ref:</tspan><tspan
          id="tspan8367"
          sodipodi:role="line"
          x="-118.62296"
-         y="-28.645596"
+         y="-28.645588"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">    branch: workspace-dev</tspan><tspan
          id="tspan8369"
          sodipodi:role="line"
          x="-118.62296"
-         y="-23.291912"
+         y="-23.29191"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  url: https://github.com/makkes/flux-mc-control-plane</tspan><tspan
          id="tspan8371"
          sodipodi:role="line"
          x="-118.62296"
-         y="-17.938229"
+         y="-17.938232"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">---</tspan><tspan
          id="tspan8373"
          sodipodi:role="line"
          x="-118.62296"
-         y="-12.58456"
+         y="-12.584554"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">apiVersion: kustomize.toolkit.fluxcd.io/v1beta2</tspan><tspan
          id="tspan8375"
          sodipodi:role="line"
          x="-118.62296"
-         y="-7.2308764"
+         y="-7.230875"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">kind: Kustomization</tspan><tspan
          id="tspan8377"
          sodipodi:role="line"
          x="-118.62296"
-         y="-1.877193"
+         y="-1.8771968"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">metadata:</tspan><tspan
          id="tspan8379"
          sodipodi:role="line"
          x="-118.62296"
-         y="3.4764752"
+         y="3.4764814"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  name: workspace</tspan><tspan
          id="tspan8381"
          sodipodi:role="line"
          x="-118.62296"
-         y="8.8301582"
+         y="8.8301592"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  namespace: workspace-dev</tspan><tspan
          id="tspan8383"
          sodipodi:role="line"
          x="-118.62296"
-         y="14.183826"
+         y="14.183838"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">spec:</tspan><tspan
          id="tspan8385"
          sodipodi:role="line"
          x="-118.62296"
-         y="19.53751"
+         y="19.537516"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  interval: 1m0s</tspan><tspan
          id="tspan8387"
          sodipodi:role="line"
@@ -788,12 +855,12 @@
          id="tspan8389"
          sodipodi:role="line"
          x="-118.62296"
-         y="30.244862"
+         y="30.244873"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  serviceAccountName: dev</tspan><tspan
          id="tspan8391"
          sodipodi:role="line"
          x="-118.62296"
-         y="35.598545"
+         y="35.598549"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  sourceRef:</tspan><tspan
          id="tspan8393"
          sodipodi:role="line"
@@ -803,12 +870,12 @@
          id="tspan8395"
          sodipodi:role="line"
          x="-118.62296"
-         y="46.305897"
+         y="46.305908"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">    name: workspace</tspan><tspan
          id="tspan8397"
          sodipodi:role="line"
          x="-118.62296"
-         y="51.65958"
+         y="51.659584"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">  dependsOn:</tspan><tspan
          id="tspan8399"
          sodipodi:role="line"
@@ -818,12 +885,12 @@
          id="tspan8401"
          sodipodi:role="line"
          x="-118.62296"
-         y="62.366932"
+         y="62.366943"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">      name: gatekeeper-constraints</tspan><tspan
          id="tspan8403"
          sodipodi:role="line"
          x="-118.62296"
-         y="67.720634"
+         y="67.720619"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332" /></text>
     <text
        id="text8305"
@@ -982,7 +1049,7 @@
     </g>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1326)"
-       d="m 145.27139,-76.809864 0,57.481216"
+       d="m 137.89311,-76.809864 0,57.481216"
        id="path1012"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -990,7 +1057,7 @@
        inkscape:connection-start="#rect990" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 145.27139,19.363319 0,57.481192"
+       d="m 137.89311,19.363319 0,57.481192"
        id="path1014"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -998,23 +1065,22 @@
        inkscape:connection-end="#g4379" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1306)"
-       d="m 145.27139,115.53648 0,57.72203"
+       d="m 137.89311,115.53648 0,57.72203"
        id="path1016"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
        inkscape:connection-start="#g4379"
        inkscape:connection-end="#g4401" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1310)"
-       d="m 81.295746,213.85922 -71.036738,0.42845"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1310)"
+       d="m 146.49956,260.9256 v 15.48446 H 10.737446"
        id="path1018"
-       inkscape:connector-type="polyline"
+       inkscape:connector-type="orthogonal"
        inkscape:connector-curvature="0"
-       inkscape:connection-start="#g4401"
        inkscape:connection-end="#g4412" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1314)"
-       d="m -49.766284,198.64559 0,-35.62319"
+       d="M -56.719741,260.40594 -57.045977,163.0224"
        id="path1020"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -1022,7 +1088,7 @@
        inkscape:connection-end="#g4427" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1318)"
-       d="m -49.766283,110.38396 0,-39.498164"
+       d="m -57.144563,110.38396 0,-39.498164"
        id="path1022"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -1030,7 +1096,7 @@
        inkscape:connection-start="#g4427" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1322)"
-       d="m -109.55913,133.3124 -69.16802,-0.32549"
+       d="m -109.55913,133.34712 -69.16802,-0.32549"
        id="path1026"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -1125,7 +1191,7 @@
     </g>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1962)"
-       d="M -252.62258,71.550824 V -8.4313211 H -404.7985"
+       d="M -260.00086,71.550824 V -8.4313211 H -404.7985"
        id="path1952"
        inkscape:connector-type="orthogonal"
        inkscape:connector-curvature="0"
@@ -1151,7 +1217,7 @@
          style="stroke-width:0.26458332">workspace Git repository</tspan></text>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker2161)"
-       d="M -43.688723,-80.191536 V -189.92445"
+       d="M -57.144561,-80.191536 V -189.92445 h 6.077558"
        id="path2151"
        inkscape:connector-type="orthogonal"
        inkscape:connector-curvature="0"
@@ -1227,7 +1293,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot1025"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
          id="flowRegion1027"><rect
            id="rect1029"
            width="43.398445"
@@ -1365,7 +1431,8 @@
       </g>
     </g>
     <g
-       id="g1238">
+       id="g1238"
+       transform="translate(63.601632,-23.681459)">
       <flowRoot
          transform="matrix(0.26458333,0,0,0.26458333,-635.2222,-334.83225)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -1374,10 +1441,10 @@
            id="flowRegion1103"><rect
              y="2130.2124"
              x="1739.5883"
-             height="97.176483"
-             width="241.66277"
+             height="131.69977"
+             width="228.87633"
              id="rect1105" /></flowRegion><flowPara
-           id="flowPara1107">This cluster is in the &quot;dev&quot; workspace so consumes the workspace's associated directory.</flowPara></flowRoot>      <g
+           id="flowPara1107">This cluster is in the &quot;dev&quot; workspace so consumes the workspace's associated directory in addition to the cluster-specific sync configuration.</flowPara></flowRoot>      <g
          transform="translate(0,0.46301336)"
          id="g1167">
         <circle
@@ -1432,7 +1499,7 @@
              id="tspan1056-1-9-5"
              x="-146.83191"
              y="125.28194"
-             style="font-size:7.76111126px;stroke-width:0.26458332">5</tspan></text>
+             style="font-size:7.76111126px;stroke-width:0.26458332">6</tspan></text>
       </g>
     </g>
     <g
@@ -1468,7 +1535,7 @@
              id="tspan1056-1-9-9"
              x="-164.27449"
              y="-21.30213"
-             style="font-size:7.76111126px;stroke-width:0.26458332">6</tspan></text>
+             style="font-size:7.76111126px;stroke-width:0.26458332">7</tspan></text>
       </g>
     </g>
     <text
@@ -1481,7 +1548,232 @@
          id="tspan1145"
          x="-167.93626"
          y="-20.436754"
-         style="stroke-width:0.26458332"></tspan></text>
+         style="stroke-width:0.26458332" /></text>
+    <g
+       id="g7842"
+       transform="translate(-23.08462,-4.6647677)">
+      <g
+         id="g7812">
+        <text
+           id="text909-6-8-5-6-8-8-1"
+           y="216.85863"
+           x="-303.78534"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="stroke-width:0.26458332"
+             y="216.85863"
+             x="-303.78534"
+             id="tspan907-7-5-7-4-8-9-0"
+             sodipodi:role="line">clusters/dev/remote/sync.yaml</tspan></text>
+        <rect
+           style="fill:#0e0eff;fill-opacity:0.11764706;stroke:#0e0eff;stroke-width:0.93282622;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect990-8-1-8-4-2-7-3"
+           width="147.79086"
+           height="128.39554"
+           x="-303.31891"
+           y="220.30479"
+           inkscape:connector-avoid="true" />
+      </g>
+      <text
+         id="text817-6-1-1-3-9-3-0"
+         y="229.02132"
+         x="-297.62271"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:50%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="229.02132"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1581-4">apiVersion: source.toolkit.fluxcd.io/v1beta1</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="234.375"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1583-4">kind: GitRepository</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="239.72867"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1585-4">metadata:</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="245.08235"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1587-4">  name: cluster</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="250.43604"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1589-7">  namespace: flux-system</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="255.7897"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1591-6">spec:</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="261.14337"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1593-3">  interval: 1m0s</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="266.49707"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1595-1">  ref:</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="271.85074"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1597-7">    branch: cluster/dev</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="277.20441"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1599-5">  url: https://github.com/makkes/flux-mc-control-plane</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="282.55811"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1601-9">---</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="287.91177"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1603-6">apiVersion: kustomize.toolkit.fluxcd.io/v1beta2</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="293.26544"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1605-2">kind: Kustomization</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="298.61914"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1607-1">metadata:</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="303.97281"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1609-7">  name: cluster</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="309.32648"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1611-8">  namespace: flux-system</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="314.68018"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1613-5">spec:</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="320.03384"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1615-7">  interval: 1m0s</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="325.38751"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1617-4">  prune: true</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="330.74121"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1619-1">  sourceRef:</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="336.09488"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1621-8">    kind: GitRepository</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="341.44855"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1623-5">    name: common</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:50%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="346.80225"
+           x="-297.62271"
+           sodipodi:role="line"
+           id="tspan1625-97" /></text>
+    </g>
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1322-5)"
+       d="m -109.31314,276.49253 -69.29953,0.10854"
+       id="path1026-8"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4412"
+       inkscape:connection-end="#g7842" />
+    <g
+       id="g9188"
+       transform="translate(5.2628149,6.698128)">
+      <g
+         id="g1144"
+         transform="translate(10.047192,43.08825)">
+        <rect
+           style="fill:none;fill-opacity:0.06342492;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1494-3-3"
+           width="221.9201"
+           height="94.152718"
+           x="-626.41486"
+           y="179.4836" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="-630.34784"
+           y="171.66432"
+           id="text1506-6-1"><tspan
+             sodipodi:role="line"
+             id="tspan1504-7-89"
+             x="-630.34784"
+             y="171.66432"
+             style="stroke-width:0.26458332">cluster Git repository</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker8655)"
+       d="m -326.40353,276.61438 -62.78121,-0.0969"
+       id="path8539"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g7842"
+       inkscape:connection-end="#rect1494-3-3" />
+    <g
+       id="g1238-6"
+       transform="translate(1.0814942,68.550765)">
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-635.2222,-334.83225)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         id="flowRoot1101-4"
+         xml:space="preserve"><flowRegion
+           id="flowRegion1103-3"><rect
+             y="2130.2124"
+             x="1739.5883"
+             height="131.69977"
+             width="228.87633"
+             id="rect1105-3" /></flowRegion><flowPara
+           id="flowPara1107-3">Each cluster has its own Git repository for cluster-specific deployment of applications.</flowPara></flowRoot>      <g
+         transform="translate(0,0.46301336)"
+         id="g1167-8">
+        <circle
+           style="fill:#d4e4ff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.96388263"
+           id="path1060-7-1-7-6"
+           cx="-145.02939"
+           cy="219.90593"
+           r="6.3009605" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="-147.46989"
+           y="222.78606"
+           id="text1058-7-5-7-0"><tspan
+             sodipodi:role="line"
+             id="tspan1056-1-9-6-4"
+             x="-147.46989"
+             y="222.78606"
+             style="font-size:7.76111126px;stroke-width:0.26458332">5</tspan></text>
+      </g>
+    </g>
   </g>
   <style
      id="style966">.st0{fill:#fff}.st1{fill:#bababa}</style>
