@@ -4,6 +4,14 @@ This repository demonstrates how Flux can be leveraged for centralized managemen
 
 ## Terminology
 
+### Roles
+
+This implementation defines several roles that reflect different use cases and permissions:
+
+* **Platform Administrator**: This is the most powerful role having access to the management cluster's repository. The platform admin creates workspaces and attaches clusters to be managed.
+* **Workspace Administrator**: This role grants access to an individual workspace's repository, managing all applications deployed to clusters in that workspace.
+* **Cluster Administrator**: This role grants access to a repository reconciled by a single cluster, allowing to deploy per-cluster applications.
+
 ### Workspace
 
 A workspace is considered as the primary grouping of multiple clusters. One cluster can only be part of one workspace. All resources managed as part of a workspace (e.g. applications to be deployed) are synchronized across all clusters in that workspace, i.e. all clusters in a workspace will receive the same set of resources specific to that workspace.
