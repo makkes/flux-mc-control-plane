@@ -6,7 +6,7 @@ metadata:
 spec:
   force: false
   interval: 1m0s
-  path: test
+  path: ./
   prune: false
   sourceRef:
     kind: GitRepository
