@@ -15,7 +15,6 @@ spec:
     metadata:
       labels:
         app: test
-        additional: ${additional:=none}
     spec:
       containers:
         - name: webserver
