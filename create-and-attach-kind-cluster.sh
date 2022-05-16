@@ -30,7 +30,7 @@ if [ -z "$NAME" ] ; then
     exit 1
 fi
 
-kind create cluster --name "$NAME" --kubeconfig $NAME-kubeconfig
+kind create cluster --name "$NAME" --kubeconfig $NAME-kubeconfig --config ~/kind-with-custom-registry.yaml
 
 TMPDIR=$(mktemp -d)
 KUBECONFIG="$TMPDIR/kubeconfig"
