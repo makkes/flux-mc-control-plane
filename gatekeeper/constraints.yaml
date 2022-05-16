@@ -5,7 +5,7 @@ metadata:
   name: gatekeeper-constraints
   namespace: flux-system
 spec:
-  interval: 10m0s
+  interval: 6h
   path: ./gatekeeper/constraints
   prune: true
   dependsOn:
