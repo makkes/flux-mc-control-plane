@@ -123,7 +123,7 @@ spec:
     name: cluster
 EOF
 cd remote
-kustomize create --resources ../../../workspaces/"$WORKSPACE",sync.yaml
+kustomize create --resources ../../../workspaces/"$WORKSPACE",sync.yaml,../../common
 
 cd ../..
 kustomize edit add resource "$NAME"
