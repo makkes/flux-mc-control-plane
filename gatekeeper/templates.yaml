@@ -7,6 +7,9 @@ metadata:
 spec:
   interval: 10m0s
   path: ./gatekeeper/templates
+  healthChecks:
+  - kind: customresourcedefinition
+    name: requiredserviceaccountname.constraints.gatekeeper.sh
   prune: true
   dependsOn:
     - name: gatekeeper
