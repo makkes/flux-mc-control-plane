@@ -5,7 +5,7 @@ metadata:
   name: ca
   namespace: flux-system
 spec:
-  interval: 10m0s
+  interval: 6h
   path: ./control-plane/cert-manager/ca
   prune: true
   dependsOn:

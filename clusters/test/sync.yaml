@@ -4,7 +4,7 @@ metadata:
   name: cluster-test
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 6h
   prune: true
   path: ./clusters/test/remote
   kubeConfig:

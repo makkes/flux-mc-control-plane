@@ -5,7 +5,7 @@ metadata:
   name: control-plane
   namespace: flux-system
 spec:
-  interval: 5m0s
+  interval: 6h
   path: ./control-plane
   prune: true
   sourceRef:

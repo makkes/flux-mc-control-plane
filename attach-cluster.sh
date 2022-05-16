@@ -83,7 +83,7 @@ metadata:
   name: cluster-$NAME
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 6h
   prune: true
   path: ./clusters/$NAME/remote
   kubeConfig:
@@ -116,7 +116,7 @@ metadata:
   name: cluster
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 6h
   prune: true
   sourceRef:
     kind: GitRepository
