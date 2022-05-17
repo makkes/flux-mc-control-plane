@@ -44,9 +44,12 @@ fi
 cd "$CLUSTERDIR"
 
 # stage 1 - remove sync Kustomization
-git rm sync.yaml
+#git rm sync.yaml
+kustomize edit remove resource sync.yaml
+git add kustomization.yaml
 git commit -m "prepare detachment of cluster $NAME"
 git push
+flux reconcile source git control-plane
 
 echo -n "waiting for cluster Kustomization to be removed..."
 while kubectl -n flux-system get ks cluster-"$NAME" ; do

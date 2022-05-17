@@ -132,3 +132,4 @@ cd "$CLONEDIR"
 git add .
 git commit -m "attaching cluster $NAME"
 git push
+flux reconcile source git control-plane
