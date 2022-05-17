@@ -1,0 +1,15 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: cluster-test
+  namespace: flux-system
+spec:
+  interval: 6h
+  prune: true
+  path: ./clusters/test/remote
+  kubeConfig:
+    secretRef:
+      name: cluster-test
+  sourceRef:
+    kind: GitRepository
+    name: control-plane
