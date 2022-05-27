@@ -3,13 +3,6 @@
 # This manifest includes the following component versions:
 #   calico/ctl:v3.23.1
 
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-  name: calicoctl
-  namespace: kube-system
-
----
 
 apiVersion: v1
 kind: Pod
