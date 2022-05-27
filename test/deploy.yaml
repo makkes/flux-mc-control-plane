@@ -3,6 +3,7 @@ kind: ServiceAccount
 metadata:
   creationTimestamp: null
   name: test
+  namespace: default
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -11,6 +12,7 @@ metadata:
   labels:
     app: test
   name: test
+  namespace: default
 spec:
   replicas: 1
   selector:
